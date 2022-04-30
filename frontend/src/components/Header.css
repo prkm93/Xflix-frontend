@@ -1,0 +1,69 @@
+.xflix {
+    font-size: 25px !important;
+    font-weight: bold !important;
+    letter-spacing: 3px !important;
+    transform: scale(0.9,1);
+}
+
+.x-red {
+    color: #EE1520;
+    display: inline-block;
+    margin-right: 4px;
+    font-size: 25px !important;
+    font-weight: bold;
+}
+
+.text-field {
+    width: 45%;
+    background-color: #181818;
+    border:1px solid #444D56;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+    padding: 10px;
+}
+.text-field::placeholder {
+    padding: 10px 30px;
+    font-size: 17px;
+}
+
+.text-field:focus {
+    outline: none;
+}
+
+.btn-upload {
+    padding: 0 30px;
+    background-color: #4CA3FC;
+    width: 115px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.upload-dialog {
+    /* padding: 100px;  */
+    color: #ccacac !important;
+}
+
+.upload-form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+
+.upload-btn-groups {
+    display: flex !important;
+    justify-content: flex-start;
+}
+
+.MuiDialog-paper{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.16)), #121212 !important;
+    color: white;
+}
+
+.MuiInputLabel-formControl {
+    color: white;
+}

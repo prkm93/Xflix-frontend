@@ -1,0 +1,12 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+body {
+  background-color: #181818;
+  color: white;
+  font-family: 'Roboto';
+}
+

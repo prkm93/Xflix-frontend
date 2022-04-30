@@ -1,0 +1,37 @@
+.sort-select {
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    padding: 6px 17px;
+    background-color: #fff;
+    color: #586069;
+}
+
+.select-options {
+    border: none;
+    padding: 10px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.genre-btn, .content-rating-btn {
+    padding:6px 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    background-color: #222222;
+    color: #fff;
+} 
+
+.genre-btn-selected, .content-rating-btn-selected {
+    padding:6px 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    background-color: #fff;
+    color: #586069;
+}
+
+.genre-btn:hover {
+    background-color: #fff;
+    color: #586069;
+}

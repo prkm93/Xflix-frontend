@@ -1,0 +1,75 @@
+.video-title {
+    font-size: 24px !important;
+    font-weight: bolder !important;
+}
+
+.video-content {
+    background-color: #181818;;
+    color: white;
+    font-weight: bold;
+    padding:10px 0 !important; 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+}
+
+.video-dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #D1D5DA;
+    border-radius: 50%;
+    margin-left: 7px;
+    margin-bottom: 2px;
+    margin-right: 7px;
+}
+
+.video-votes-section {
+    align-self: flex-end;
+}
+
+.video-release-date {
+    margin-top: -10px !important;
+}
+
+.video-view-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-top: 10px;
+}
+
+.video-genre {
+    font-size: 14px;
+}
+
+.video-count {
+    margin-right: 40px;
+}
+
+.video-view-icon {
+    position: absolute;
+    right: 1%;
+}
+
+.video-upvote {
+    background-color: #222222;
+    padding: 2px 30px;
+    border-radius: 20px;
+    margin-right: 8px;
+}
+
+.video-downvote {
+    background-color: #222222;
+    padding: 2px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.video-upvote:hover, .video-downvote:hover {
+    background-color: #4CA3FC;
+    color: #fff;
+    cursor: pointer;
+}
